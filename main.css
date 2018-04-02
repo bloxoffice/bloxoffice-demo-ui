@@ -1,0 +1,342 @@
+.movieDtlsOne{
+  padding: 5px;
+}
+.movieTitle {
+  width: 206px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #323648;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cost {
+  width: 93.3px;
+  height: 36px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a9aab4;
+}
+
+.nextShowTime {
+  width: 58.1px;
+  height: 36px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a9aab4;
+}
+
+.duration {
+  width: 63.8px;
+  height: 36px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a9aab4;
+}
+
+.csStyle{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.movieList{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.seeMore:hover {
+    padding-bottom: 10px;
+    border-bottom: solid 2px #323648;
+}
+.currentStreaming:hover{
+  padding-bottom: 10px;
+
+  border-bottom: solid 2px #bf343e;
+}
+.seeMore {
+  width: 65px;
+  height: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bf343e;
+  padding-left: 10px;
+}
+
+.currentStreaming {
+  width: 175px;
+  height: 19px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #323648;
+
+}
+
+.csThumbnail {
+  width: 279.5px;
+  height: 435.7px;
+  background-color: #ffffff;
+  background-color: var(--white);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.07);
+
+}
+
+.bitmapCS {
+  width: 279.5px;
+  height: 344px;
+}
+.featureFilm {
+/*width: 492px;
+  height: 75px;
+  font-weight: 600;*/
+  font-family: 'Source Sans Pro', sans-serif;;
+  font-size: 50px;
+
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+}
+
+.movieDtls{
+  width: 600px;
+  margin: 0px;
+}
+.watchMovie {
+  width: 224px;
+  height: 63px;
+  border-radius: 3px;
+  background-color: #e1270d;
+  padding-right: 5px;
+  color: #ffffff;
+}
+.viewInfo {
+  width: 178px;
+  height: 63px;
+  border-radius: 3px;
+  border: solid 2.1px #ffffff;
+  /* border: solid 2.1px var(--white); */
+  background: transparent;
+  color: #ffffff;
+}
+
+.featureFilmGenre {
+  width: 308px;
+  height: 25px;
+  opacity: 0.7;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.headerCls{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  z-index: 999 !important;
+  width: -webkit-fill-available;
+}
+
+.proName{
+  text-align: right;
+}
+.proNameLeft{
+  text-align: left;
+  padding: 0px;
+}
+
+.movieInline{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.acctBal {
+/*  width: 37px;
+  height: 16px; */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffd00b;
+}
+
+.prfNm{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  color: var(--white);
+}
+.bitmapLogo {
+  width: 200px;
+  height: 32.7px;
+  object-fit: contain;
+  /*background-color: #ffffff;
+  background-color: var(--white);*/
+}
+
+.btn-outline-success {
+  color: #ffffff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ffffff;
+}
+
+.input_bg {
+  width: 170px;
+  height: 32px;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  border: solid 1px var(--white);
+}
+
+.profile-pic{
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+}
+
+.bitmap {
+  width: 1440px;
+  height: 823px;
+  background-color: #8589fd;
+}
+
+#footer_bg {
+  width: auto;//1440px;
+  height: 125px;
+  background-color: #ffffff;
+  background-color: var(--white);
+  box-shadow: 0 -1px 0 0 #ebebeb;
+}
+
+.bitmap-Copy {
+  width: 147px;
+  height: 81px;
+  object-fit: contain;
+}
+
+.footer_meta_social_bg {
+  width: auto;//1440px;
+  height: 8px;
+  background-color: #bf343e;
+}
+
+.logo_ftr{
+  padding: 20px;
+}
+
+.BLOG-SEARCH-TERMSCO {
+  width: 534px;
+  height: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6d6f7b;
+}
+
+.ftr_details{
+  padding-right: 15px;
+  color: #6d6f7b;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.medium {
+  width: 19px;
+  height: 15px;
+  object-fit: contain;
+  padding-right: 5px;
+}
+
+.telegram {
+  width: 17px;
+  height: 15px;
+  object-fit: contain;
+  padding-right: 5px;
+}
+.fill-3 {
+  width: 19.2px;
+  height: 15.4px;
+  object-fit: contain;
+  padding-right: 5px;
+}
+
+.fill-2 {
+  width: 8px;
+  height: 15px;
+  object-fit: contain;
+  padding-right: 5px;
+}
+
+.youtube {
+  width: 19.8px;
+  height: 13.8px;
+  object-fit: contain;
+  padding-right: 5px;
+}
+
+.ftr_details_hm{
+  padding: 45px;
+}
