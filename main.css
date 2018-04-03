@@ -1,3 +1,16 @@
+.carclPrev{
+  width: 10%;
+}
+
+.carclNxt{
+  width: 10%;
+
+}
+
+.hdrlogo{
+  padding-left: 144px;
+}
+
 .movieDtlsOne{
   padding: 5px;
 }
@@ -62,8 +75,8 @@
   padding-bottom: 40px;
 }
 .movieList{
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .seeMore:hover {
@@ -136,7 +149,7 @@
 
 .movieDtls{
   width: 600px;
-  margin: 0px;
+  margin-left: -35px;
 }
 .watchMovie {
   width: 224px;
@@ -169,6 +182,7 @@
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  padding-left: 5px;
 }
 
 .headerCls{
@@ -180,7 +194,10 @@
 }
 
 .proName{
-  text-align: right;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 }
 .proNameLeft{
   text-align: left;
