@@ -1,3 +1,156 @@
+.csprojDetails{
+  width: 346px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+  padding-top: 10px;
+}
+
+.bgtRaiseBar {
+  width: 187px;
+  height: 4px;
+  background-color: #3a3a3a;
+  margin-top: 10px;
+}
+
+.bgtRaised {
+  width: 23px;
+  height: 4px;
+  background-color: #74be23;
+}
+.by-playing-a-video {
+  width: 344px;
+  height: 16px;
+  opacity: 0.63;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+}
+.watchTrailer {
+  width: 152px;
+  height: 50px;
+  border-radius: 3.5px;
+  border: solid 2.1px #3a3a3a;
+  background: transparent;
+  color: #656363;
+}
+
+.csBuyTckt {
+  width: 117px;
+  height: 50px;
+  border-radius: 3.5px;
+  border: solid 2.1px #ffd00b;
+  background: transparent;
+  color: #ffd00b;
+}
+
+.watchTrailer:hover {
+  color: #ffffff;
+  color: var(--white);
+}
+
+.buyTckt:hover {
+  color: #ffffff;
+  color: var(--white);
+}
+
+.watchTrailerTxt {
+  width: 124px;
+  opacity: 0.58;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+}
+
+
+.playBtn{
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  padding-right: 5px;
+}
+.projDetails{
+  width: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+  padding-top: 10px;
+}
+.carousel-caption_oneFilm {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.oneFilmDetails {
+  padding: 0;
+  text-align: left;
+}
+
+.oneFilmTopDtls {
+  width: 600px;
+  height: auto;
+  margin-left: -35px;
+  margin-bottom: 45px;
+}
+
+.crewDetails {
+  width: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffd00b;
+  padding-top: 10px;
+}
+
+
+.crewDetails .crewDetails-text-style {
+  color: #ffffff;
+  color: var(--white);
+}
+.carousel-item_flimDetails {
+    display: block;
+}
+
 .loading {
   width: 68px;
   height: 18px;
@@ -200,7 +353,41 @@
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
-  padding-left: 5px;
+}
+
+.onefilm-marketed-as {
+  width: 745px;
+  height: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+}
+
+.show-timings{
+  width: 407px;
+  height: 19px;
+  opacity: 0.7;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  color: var(--white);
+}
+
+.show-timings .text-style-1 {
+  color: #454545;
 }
 
 .headerCls{
