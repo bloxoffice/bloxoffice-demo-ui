@@ -16,6 +16,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./src/js/homePage.js"></script>
+  <script type="text/javascript">
+     //@Author: Prof. No Time
+     $(document).ready(function(){
+       $('#c_project').click(function () {
+          var urlToOpen = '';
+          var docURL = document.URL;
+
+          urlToOpen="create_project.html"
+          //alert('urlToOpen > ' + urlToOpen);
+          if (urlToOpen != '') window.open(urlToOpen, "_self");
+       });
+    });
+   </script>
 
 </head>
 <body>
@@ -29,7 +42,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a class="navbar-brand col-sm-6 hdrlogo" href="#"><img src="./assets/bitmap@3x.png" class="bitmapLogo" alt="..."></a>
-          <button class="btn btn-outline-success my-2 my-sm-0 col-sm-2" onclick="showIt()">Create New Project</button>
+          <button class="btn btn-outline-success my-2 my-sm-0 col-sm-2" >Create New Project</button>
           <div id="div1">Here</div>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0 col-sm-4">
             <li class="nav-item active col-sm-4 proName">
